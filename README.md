@@ -1,30 +1,3 @@
-# Final Project: Belay (a Slack clone)
-
-40 points
-
-**DUE: Friday, May 24 by 5:00pm**
-## Getting Start
-
-1. Install the required dependencies:
-- `pip3 install -r requirements.txt`
-
-2. Start the Flask application:
-- `flask run`
-
-3. Start the React application:
-- `cd frontend_react`
-- `npm start`
-
-
-## Introduction
-
-As a capstone project for Web Development, we're going to combine the various
-front-end and back-end techniques we've learned over the course to produce a
-modern, database-backed single-page application. Specifically, we'll be building
-our own (significantly smaller in scope) version of the popular workplace
-messaging app Slack. We'll call our version
-[Belay](https://en.wikipedia.org/wiki/Belaying).
-
 ## Core Behavior
 
 - Belay lets users send and read real-time chat messages that are organized into
@@ -41,4 +14,20 @@ messaging app Slack. We'll call our version
   that number is greater than zero. We don't support nested threads; messages
   either belong directly to a channel or are replies in a thread to a message
   that does, but replies can't have nested replies of their own.
+
+
+## Getting Start
+
+1. Install the required dependencies:
+- `pip3 install -r requirements.txt`
+
+2. Start the Flask application:
+- `flask run`
+
+3. Start the React application:
+- `cd frontend_react`
+- `npm start`
+
+
+
 
